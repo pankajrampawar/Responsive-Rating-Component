@@ -9,7 +9,7 @@ function ThanksComponent() {
     return (
         <div className='thanks-card'>
             <section className='image'>
-                <img src={thanksImage} alt='image icon'/>
+                <img src={thanksImage} alt='thanks image'/>
             </section>
             <span className='remark'>
                 You selected {rating} out  of 5
