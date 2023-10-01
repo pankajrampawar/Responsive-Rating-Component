@@ -37,6 +37,6 @@ I always thought that i knew more than enough about css, but this challenge shat
 
 ## Author
 
-- Website - [https://pankajrampawar.github.io/Responsive-Rating-Template/]
+- Website - [https://pankajrampawar.github.io/Responsive-Rating-Component]
 - Frontend Mentor - [@pankajrampawar](https://www.frontendmentor.io/profile/pankajrampawar)
 - Twitter - [@PankajRamPawar](https://www.twitter.com/PankajRamPawar)
