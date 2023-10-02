@@ -6,7 +6,7 @@ import ThanksComponent from "./thanksComponent";
 function App() {
   return (
     <div>
-    <Router>
+    <Router basename="/Responsive-Rating-Component">
       <Routes>
         <Route path='/' element={<RatingComponent/>}/>
         <Route path='/thanks/:rating' element={<ThanksComponent/>}/>
