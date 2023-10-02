@@ -6,7 +6,7 @@ import ThanksComponent from "./thanksComponent";
 function App() {
   return (
     <div>
-    <Router basename="/Responsive-Rating-Component">
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<RatingComponent/>}/>
         <Route path='/thanks/:rating' element={<ThanksComponent/>}/>
