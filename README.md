@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/pankajrampawar/Responsive-Rating-Template.git]
-- Live Site URL: [https://pankajrampawar.github.io/Responsive-Rating-Template/]
+- Live Site URL: [https://responsive-rating-component-syw3.vercel.app]
 
 ### Built with
 
@@ -33,10 +33,12 @@ Users should be able to:
 
 ### What I learned
 
-I always thought that i knew more than enough about css, but this challenge shattered my belief, i learnt how important being able to use query selector is and without it your css skills are not enough, i also learned how to use react-router-dom to navigate and fetch query params, they made the task easy and quick.
+- This was my first frontend challenge that I completed using react, and it was quite tough, but quick and simple
+
+- Had some issues deploying it using github so finally decided to deploy it using vercel. It was way more easier than expected.
 
 ## Author
 
-- Website - [https://pankajrampawar.github.io/Responsive-Rating-Component]
+- Website - [https://responsive-rating-component-syw3.vercel.app]
 - Frontend Mentor - [@pankajrampawar](https://www.frontendmentor.io/profile/pankajrampawar)
 - Twitter - [@PankajRamPawar](https://www.twitter.com/PankajRamPawar)
