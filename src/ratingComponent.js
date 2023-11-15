@@ -7,9 +7,10 @@ function RatingComponent() {
    const navigate = useNavigate(); 
 
   const[rating, setRating] = React.useState('');
+  const[selected, setSelected] = React.useState(false);
 
   const handleRating = (value)=>{
-    setRating(value);
+    setRating(value); 
 
     // remove selected from all the rating component
     const ratingComponents = document.querySelectorAll('.rating-component');
@@ -22,10 +23,14 @@ function RatingComponent() {
     if (selectedComponent) {
         selectedComponent.classList.add('selected')
     }
+
+    setSelected(true);
   }
 
   const handleSubmit = ()=>{
-    navigate(`/thanks/${rating}`)
+    if(selected) {
+      navigate(`/thanks/${rating}`)
+    }
   }
 
   return (
